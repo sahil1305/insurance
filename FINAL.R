@@ -329,8 +329,3 @@ model.predict <- predict(model.naive,test)
 mean(model.predict==test$Result)
 confusionMatrix(model.predict,test$Result)
 summary(model.naive)
-
-library(C50) ## DT library
-library(tree)
-
-### DT MOdel ###
